@@ -1,0 +1,26 @@
+<metal:macro use-macro="layout">
+
+	<!-- PAGE TITLE -->
+	<metal:slot fill-slot="title"><title>404</title></metal:slot>
+	<!-- PAGE TITLE -->
+
+	<!-- FACEBOOK META INFO -->
+	<metal:slot fill-slot=''>
+		<meta property="og:image" content=""/>
+		<meta property='og:description' content='' />
+		<meta property="og:title" content=""/>
+		<meta property="og:url" content="${request.application_url}"/>
+	</metal:slot>
+	<!-- FACEBOOK META INFO -->
+
+	<!-- GOOGLE META DESCRIPTION -->
+	<metal:slot fill-slot='description'>	</metal:slot>
+	<!-- GOOGLE META DESCRIPTION -->
+
+	<!-- PAGE CONTENT -->
+	<metal:slot fill-slot='content'>
+		<h2>404 | Page Not Found</h2>
+	</metal:slot>
+	<!-- PAGE CONTENT -->
+
+</metal:macro>

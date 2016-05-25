@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="${request.locale_name}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/static/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/static/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/static/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/static/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/static/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/static/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/static/images/favicon/manifest.json">
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- FAVICONS -->
+
+    <!-- META INFO FOR GOOGLE -->
+    <meta 
+      name="description" 
+      content=""
+    />
+    <!-- META INFO FOR GOOGLE -->
+
+    <!-- FOR FACEBOOK -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Schmetterling" />
+    <meta property='fb:app_id' content='' />
+    <meta property="og:image" content=""/>
+  	<meta property='og:description' content='' />
+  	<meta property="og:title" content=""/>
+  	<meta property="og:url" content="${request.application_url}"/>
+    <!-- FOR FACEBOOK -->
+
+    <title>Schmetterling</title>
+
+    <!-- STYLESHEETS -->
+    <link rel='stylesheet' type='text/css' media='screen' href='/static/stylesheets/schmetterling.css' />
+    <!-- STYLESHEETS -->    
+  </head>
+
+  <body>
+    
+    <!-- JAVASCRIPTS -->
+    <script type='text/javascript' src='/static/javascripts/jquery.min.js'></script>
+    <script type='text/javascript' src='/static/javascripts/modernizr.js'></script>
+
+    <script type='text/javascript' src='/static/javascripts/schmetterling/ENGINE_Helpers.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/ENGINE_Display.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/ENGINE_Sound.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/ENGINE_Collision.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/ENGINE_Controller.js'></script>
+
+    <script type='text/javascript' src='/static/javascripts/schmetterling/LOGIC_Persistence.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/LOGIC_Events.js'></script>
+
+    <script type='text/javascript' src='/static/javascripts/schmetterling/SPRITE_Butterfly.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/SPRITE_SkyBox.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/SPRITE_Poster.js'></script>
+
+    <script type='text/javascript' src='/static/javascripts/schmetterling/PARTICLE_Particle.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/PARTICLE_PurpleBlast.js'></script>
+
+    <script type='text/javascript' src='/static/javascripts/schmetterling/UI_ListBox.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/UI_Slider.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/UI_JoyStick.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/UI_RightButtons.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/UI_ProgressBar.js'></script>
+
+    <script type='text/javascript' src='/static/javascripts/schmetterling/HUD_EventText.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/HUD_PauseMenu.js'></script>
+
+    <script type='text/javascript' src='/static/javascripts/schmetterling/SCN_SplashScreen.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/SCN_MainMenu.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/SCN_Credits.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/SCN_OptionsScene.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/SCN_OptionsDisplay.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/SCN_OptionsAudio.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/SCN_OptionsControls.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/SCN_GameScene.js'></script>
+
+    
+    <script type='text/javascript' src='/static/javascripts/schmetterling/LOGIC_SceneManager.js'></script>
+    <script type='text/javascript' src='/static/javascripts/schmetterling/main.js'></script>
+    <!-- JAVASCRIPTS -->
+
+  </body>
+
+</html>

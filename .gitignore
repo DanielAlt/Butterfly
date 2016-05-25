@@ -1,0 +1,9 @@
+
+# Protecting Art Assets until 12 months after Release.
+
+sources/
+schmetterling/static/images/
+schmetterling/static/fonts/
+schmetterling/static/audio/
+
+# 

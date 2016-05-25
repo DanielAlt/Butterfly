@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="${request.locale_name}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta 
+      name="description" 
+      content="" 
+    />
+    <!-- FOR FACEBOOK -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Fubb" />
+    <metal:slot metal:define-slot="fb-meta" />
+    <meta property='fb:app_id' content='1073304142727007' />    
+    <!-- FOR FACEBOOK -->
+
+    <title metal:define-slot="title" tal:content="context/title | python:None">Movie Fubb</title>
+
+    <!-- STYLESHEETS -->
+    <link rel='stylesheet' type='text/css' media='screen' href='/static/stylesheets/global.css' />
+    <metal:slot metal:define-slot="css" />
+    <!-- STYLESHEETS -->
+
+    <!-- JAVASCRIPTS -->
+    <script type='text/javascript' src='/static/javascripts/jquery.min.js'></script>
+    <script type='text/javascript' src='/static/javascripts/modernizr.js'></script>
+    <script type='text/javascript' src='/static/javascripts/global.js'></script>
+    <metal:slot metal:define-slot="script" />
+  </head>
+  <body>
+      
+    <meta:slot metal:define-slot='content' />
+
+  </body>
+</html>
